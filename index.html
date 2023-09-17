@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="theme-color" content="#111111">
+   <title>Линкерпарк</title>
+   <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Roboto-Light.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Sahitya-Regular.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+   <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+   <div class="site-container">
+      <header class="header">
+   <div class="header__top">
+      <div class="container header__top--content">
+         <a href="mailto:linkerpark-omsk@mail.ru" class="header__email">linkerpark-omsk@mail.ru</a>
+         <div class="header__circle">
+            <img src="img/svg/circle.svg" class="img-contain" width="21" height="21" alt="circle">
+         </div>
+         <a href="tel:+7(3812)37-81-67" class="header__tel">+7 (38-12) 37-81-67</a>
+      </div>
+   </div>
+   <div class="header__main">
+      <div class="container header__main--content">
+         <div class="header__logo">
+            <img src="img/svg/logo.svg" class="img-contain" width="218" height="75" alt="линкер парк">
+         </div>
+         <nav class="nav">
+            <ul class="list-reset nav__list">
+               <li class="nav__item">
+                  <a href="#nomer" class="nav__link link-scroll">Номера</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#cafe" class="nav__link link-scroll">Ресторан</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#events" class="nav__link link-scroll">Развлечения</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#action" class="nav__link link-scroll">Мероприятия</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#sale" class="nav__link link-scroll">Акции</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#new" class="nav__link link-scroll">Новости</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#footer" class="nav__link link-scroll">Контакты</a>
+               </li>
+            </ul>
+         </nav>
+         <button class="btn-reset burger">
+            <span class="burger__line __top"></span>
+            <span class="burger__line __center"></span>
+            <span class="burger__line __center"></span>
+            <span class="burger__line __bottom"></span>
+         </button>
+      </div>
+   </div>
+</header>
+      <main class="main">
+         <section class="hero">
+            <div class="container hero__content">
+               <h2 class="hero__title">Линкер Парк</h2>
+               <h1 class="hero__text">Откройте для себя новое место отдыха за городом. Вам здесь рады!</h1>
+               <form action="#" class="hero__form">
+                  <div class="hero__block hero__block--calendar">
+                     <span class="hero__input--text">Заезд</span>
+                     <input type="text" class="hero__input" value="23.05.2024">
+                  </div>
+                  <div class="hero__block hero__block--calendar">
+                     <span class="hero__input--text">Выезд</span>
+                     <input type="text" class="hero__input" value="27.05.2024">
+                  </div>
+                  <div class="hero__block hero__block--people">
+                     <span class="hero__input--text">Гости</span>
+                     <input type="text" class="hero__input" value="2 взрослых, без детей">
+                  </div>
+                  <button class="btn-reset hero__btn">Найти</button>
+               </form>
+               <div class="hero__bottom">
+                  <div class="arrow__down">
+                     <svg class="arrow__down--ico">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                     </svg>
+                  </div>
+                  <div class="hero__line"></div>
+                  <div class="hero__circle"></div>
+               </div>
+            </div>
+         </section>
+         <section class="old">
+            <div class="old__decor--one">
+               <picture>
+                  <source srcset="img/tree01.webp" type="image/webp">
+                  <img loading="lazy" src="img/tree01.png" class="img-contain" width="160" height="540" alt="tree">
+               </picture>
+            </div>
+            <div class="old__decor--two">
+               <picture>
+                  <source srcset="img/tree02.webp" type="image/webp">
+                  <img loading="lazy" src="img/tree02.png" class="img-contain" width="130" height="353" alt="tree">
+               </picture>
+            </div>
+            <div class="container old__content">
+               <div class="old__top">
+                  <span class="old__number">8</span>
+                  <div class="old__number--info">
+                     <span class="old__number--title">лет</span>
+                     <p class="old__number--text">всё для вашего отдыха</p>
+                  </div>
+               </div>
+               <h2 class="old__title">Об Apart Hotel «Линкер Парк»</h2>
+               <p class="old__text">Загородный Apart Hotel «Линкер Парк» был открыт 2015 году в живописном лесном
+                  массиве экологически чистой зоны. Всего в 17 км по Черлакскому шоссе от города Омска.
+                  «Линкер Парк» — это два современных гостевых коттеджа, в которых для комфортного проживания и
+                  полноценного отдыха предоставляются номера разных категорий. Четыре уютных 2-х местных номера, пять
+                  4-х местных апартамента и полулюкс с кухней, бытовой техникой и комплектом посуды.</p>
+               <a href="#" class="old__link">
+                  <span class="old__link--text">Фотогалерея</span>
+                  <svg class="old__link--ico">
+                     <use xlink:href="img/sprite.svg#gallery"></use>
+                  </svg>
+               </a>
+            </div>
+         </section>
+         <section class="images">
+            <div class="images__content">
+               <div class="swiper images__slider">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide images__slide">
+                        <picture>
+                           <source srcset="img/sliderImg.webp" type="image/webp">
+                           <img loading="lazy" src="img/sliderImg.jpg" class="img-absolute" width="1400" height="550"
+                              alt="img">
+                        </picture>
+                     </div>
+                     <div class="swiper-slide images__slide">
+                        <picture>
+                           <source srcset="img/sliderImgNext.webp" type="image/webp">
+                           <img loading="lazy" src="img/sliderImgNext.jpg" class="img-absolute" width="1400"
+                              height="550" alt="img">
+                        </picture>
+                     </div>
+                  </div>
+                  <div class="sliderArrow __prev">
+                     <svg class="sliderArrow--ico">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                     </svg>
+                     <img src="img/svg/sliderArrow.svg" class="img-contain" width="50" height="165" alt="sliderArrow">
+                  </div>
+                  <div class="sliderArrow __next">
+                     <svg class="sliderArrow--ico">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                     </svg>
+                     <img src="img/svg/sliderArrow.svg" class="img-contain" width="50" height="165" alt="sliderArrow">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="info">
+            <div class="container info__content">
+               <div class="info__top">
+                  <div class="title">
+                     <h2 id="nomer" class="title--text">Номера
+                     </h2>
+                  </div>
+                  <a href="#" class="info__all">
+                     <span class="info__all--text">Все номера</span>
+                     <svg class="info__all--ico">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                     </svg>
+                  </a>
+               </div>
+               <div class="info__left">
+                  <div class="info__middle">
+                     <picture>
+                        <source srcset="img/nomers01.webp" type="image/webp">
+                        <img loading="lazy" src="img/nomers01.jpg" class="img-absolute" width="309" height="285"
+                           alt="nomers">
+                     </picture>
+                  </div>
+                  <div class="info__big">
+                     <picture>
+                        <source srcset="img/nomers02.webp" type="image/webp">
+                        <img loading="lazy" src="img/nomers02.jpg" class="img-absolute" width="251" height="509"
+                           alt="nomers">
+                     </picture>
+                  </div>
+                  <div class="info__small">
+                     <picture>
+                        <source srcset="img/nomers03.webp" type="image/webp">
+                        <img loading="lazy" src="img/nomers03.jpg" class="img-absolute" width="251" height="509"
+                           alt="nomers">
+                     </picture>
+                  </div>
+               </div>
+               <div class="info__right">
+                  <span class="info__name">Комфортное проживание</span>
+                  <p class="info__text">«Линкер Парк» — это ваши главные события и праздники в кругу близких, друзей,
+                     которые навсегда останутся частичкой в сердце.</p>
+                  <ul class="list-reset info__list">
+                     <li class="info__item">
+                        <a href="#" class="info__link">Двухместный</a>
+                        <svg class="info__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </li>
+                     <li class="info__item">
+                        <a href="#" class="info__link">Четырёхместный</a>
+                        <svg class="info__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </li>
+                     <li class="info__item">
+                        <a href="#" class="info__link">полулюкс</a>
+                        <svg class="info__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </li>
+                     <li class="info__item">
+                        <a href="#" class="info__link">Вальд хаус</a>
+                        <svg class="info__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </li>
+                     <li class="info__item">
+                        <a href="#" class="info__link">коттедж на 20 чел</a>
+                        <svg class="info__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <section class="info info--reverse">
+            <div class="info__decor">
+               <picture>
+                  <source srcset="img/menuTree.webp" type="image/webp">
+                  <img loading="lazy" src="img/menuTree.png" class="img-contain" width="144" height="570" alt="tree">
+               </picture>
+            </div>
+            <div class="container info__content">
+               <div class="info__top">
+                  <div class="title __full">
+                     <h2 id="cafe" class="title--text">Ресторан</h2>
+                  </div>
+               </div>
+               <div class="info__right">
+                  <span class="info__name">вкусная и свежая еда</span>
+                  <p class="info__text">«Линкер Парк» — это ваши главные события и праздники в кругу близких, друзей,
+                     которые навсегда останутся частичкой в сердце.</p>
+                  <ul class="list-reset info__list">
+                     <li class="info__item">
+                        <a href="#" class="info__link">основное меню</a>
+                        <svg class="info__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </li>
+                     <li class="info__item">
+                        <a href="#" class="info__link">меню завтраков</a>
+                        <svg class="info__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </li>
+                     <li class="info__item">
+                        <a href="#" class="info__link">детское меню</a>
+                        <svg class="info__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </li>
+                     <li class="info__item">
+                        <a href="#" class="info__link">банкетное меню</a>
+                        <svg class="info__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </li>
+                     <li class="info__item">
+                        <a href="#" class="info__link">барная карта</a>
+                        <svg class="info__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </li>
+                  </ul>
+               </div>
+               <div class="info__left">
+                  <div class="info__middle">
+                     <picture>
+                        <source srcset="img/cafe01.webp" type="image/webp">
+                        <img loading="lazy" src="img/cafe01.jpg" class="img-absolute" width="309" height="285"
+                           alt="cafe">
+                     </picture>
+                  </div>
+                  <div class="info__big">
+                     <picture>
+                        <source srcset="img/cafe02.webp" type="image/webp">
+                        <img loading="lazy" src="img/cafe02.jpg" class="img-absolute" width="251" height="509"
+                           alt="cafe">
+                     </picture>
+                  </div>
+                  <div class="info__small">
+                     <picture>
+                        <source srcset="img/cafe03.webp" type="image/webp">
+                        <img loading="lazy" src="img/cafe03.jpg" class="img-absolute" width="251" height="509"
+                           alt="cafe">
+                     </picture>
+                  </div>
+               </div>
+
+            </div>
+         </section>
+         <section class="events">
+            <div class="events__content">
+               <div class="container events__top">
+                  <div class="title __full">
+                     <h2 id="events" class="title--text">Развлечения</h2>
+                  </div>
+               </div>
+               <div class="swiper events__slider">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide events__slide">
+                        <picture>
+                           <source srcset="img/slider01.webp" type="image/webp">
+                           <img loading="lazy" src="img/slider01.jpg" class="img-absolute" width="1400" height="664"
+                              alt="mangal">
+                        </picture>
+                        <div class="container events__info">
+                           <span class="events__title">Мангальные зоны</span>
+                           <p class="events__text">Отдых на природе с шашлыком и мясом на гриле. Мангальные зоны и
+                              беседки
+                              на 8, 20 и 45 чел. Заказ блюд согласно меню из ресторана «Линкер Парк».</p>
+                        </div>
+                     </div>
+                     <div class="swiper-slide events__slide">
+                        <picture>
+                           <source srcset="img/slider02.webp" type="image/webp">
+                           <img loading="lazy" src="img/slider02.jpg" class="img-absolute" width="1400" height="664"
+                              alt="mangal">
+                        </picture>
+                        <div class="container events__info">
+                           <span class="events__title">Детская комната</span>
+                           <p class="events__text">текст для примера текст для примера текст для примера</p>
+                        </div>
+                     </div>
+                     <div class="swiper-slide events__slide">
+                        <picture>
+                           <source srcset="img/slider03.webp" type="image/webp">
+                           <img loading="lazy" src="img/slider03.jpg" class="img-absolute" width="1400" height="664"
+                              alt="mangal">
+                        </picture>
+                        <div class="container events__info">
+                           <span class="events__title">Горка</span>
+                           <p class="events__text">текст для примера текст для примера текст для примера</p>
+                        </div>
+                     </div>
+                     <div class="swiper-slide events__slide">
+                        <picture>
+                           <source srcset="img/slider04.webp" type="image/webp">
+                           <img loading="lazy" src="img/slider04.jpg" class="img-absolute" width="1400" height="664"
+                              alt="mangal">
+                        </picture>
+                        <div class="container events__info">
+                           <span class="events__title">Каток</span>
+                           <p class="events__text">текст для примера текст для примера текст для примера</p>
+                        </div>
+                     </div>
+                     <div class="swiper-slide events__slide">
+                        <picture>
+                           <source srcset="img/slider05.webp" type="image/webp">
+                           <img loading="lazy" src="img/slider05.jpg" class="img-absolute" width="1400" height="664"
+                              alt="mangal">
+                        </picture>
+                        <div class="container events__info">
+                           <span class="events__title">Сауны</span>
+                           <p class="events__text">текст для примера текст для примера текст для примера</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sliderArrow __prev">
+                     <svg class="sliderArrow--ico">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                     </svg>
+                     <img src="img/svg/sliderArrow.svg" class="img-contain" width="50" height="165" alt="sliderArrow">
+                  </div>
+                  <div class="sliderArrow __next">
+                     <svg class="sliderArrow--ico">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                     </svg>
+                     <img src="img/svg/sliderArrow.svg" class="img-contain" width="50" height="165" alt="sliderArrow">
+                  </div>
+               </div>
+               <div class="events__thumbs">
+                  <div class="swiper events__smallslider">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide events__smallSlide">
+                           <span class="events__smallTitle">Мангалы</span>
+                           <picture>
+                              <source srcset="img/slider01.webp" type="image/webp">
+                              <img loading="lazy" src="img/slider01.jpg" class="img-absolute" width="258" height="133"
+                                 alt="mangal">
+                           </picture>
+                        </div>
+                        <div class="swiper-slide events__smallSlide">
+                           <span class="events__smallTitle">Детская комната</span>
+                           <picture>
+                              <source srcset="img/slider02.webp" type="image/webp">
+                              <img loading="lazy" src="img/slider02.jpg" class="img-absolute" width="258" height="133"
+                                 alt="mangal">
+                           </picture>
+                        </div>
+                        <div class="swiper-slide events__smallSlide">
+                           <span class="events__smallTitle">Горка</span>
+                           <picture>
+                              <source srcset="img/slider03.webp" type="image/webp">
+                              <img loading="lazy" src="img/slider03.jpg" class="img-absolute" width="258" height="133"
+                                 alt="mangal">
+                           </picture>
+                        </div>
+                        <div class="swiper-slide events__smallSlide">
+                           <span class="events__smallTitle">Каток</span>
+                           <picture>
+                              <source srcset="img/slider04.webp" type="image/webp">
+                              <img loading="lazy" src="img/slider04.jpg" class="img-absolute" width="258" height="133"
+                                 alt="mangal">
+                           </picture>
+                        </div>
+                        <div class="swiper-slide events__smallSlide">
+                           <span class="events__smallTitle">Сауны</span>
+                           <picture>
+                              <source srcset="img/slider05.webp" type="image/webp">
+                              <img loading="lazy" src="img/slider05.jpg" class="img-absolute" width="258" height="133"
+                                 alt="mangal">
+                           </picture>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="action">
+            <div class="action__line"></div>
+            <div class="container action__top">
+               <div class="title __full">
+                  <h2 id="action" class="title--text">Мероприятия</h2>
+               </div>
+            </div>
+            <div class="action__thumbs">
+               <div class="swiper container action__tabs">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide action__tab--text">свадьбы</div>
+                     <div class="swiper-slide action__tab--text">банкеты</div>
+                     <div class="swiper-slide action__tab--text">корпоративы</div>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper action__slider">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide action__slide">
+                     <picture>
+                        <source srcset="img/action03.webp" type="image/webp">
+                        <img loading="lazy" src="img/action03.jpg" class="img-absolute" width="1400" height="550"
+                           alt="slider">
+                     </picture>
+                     <div class="action__info">
+                        <span class="action__name">НЕЗАБЫВАЕМЫЕ КОРПОРАТИВЫ В ЛИНКЕР ПАРКЕ</span>
+                        <a href="#" class="action__link">
+                           <span class="action__link--text">ПОДРОБНЕЕ</span>
+                           <svg class="action__link--ico">
+                              <use xlink:href="img/sprite.svg#arrowLink"></use>
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="swiper-slide action__slide">
+                     <picture>
+                        <source srcset="img/action02.webp" type="image/webp">
+                        <img loading="lazy" src="img/action02.jpg" class="img-absolute" width="1400" height="550"
+                           alt="slider">
+                     </picture>
+                     <div class="action__info">
+                        <span class="action__name">НЕЗАБЫВАЕМЫЕ КОРПОРАТИВЫ В ЛИНКЕР ПАРКЕ</span>
+                        <a href="#" class="action__link">
+                           <span class="action__link--text">ПОДРОБНЕЕ</span>
+                           <svg class="action__link--ico">
+                              <use xlink:href="img/sprite.svg#arrowLink"></use>
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="swiper-slide action__slide">
+                     <picture>
+                        <source srcset="img/action01.webp" type="image/webp">
+                        <img loading="lazy" src="img/action01.jpg" class="img-absolute" width="1400" height="550"
+                           alt="slider">
+                     </picture>
+                     <div class="action__info">
+                        <span class="action__name">НЕЗАБЫВАЕМЫЕ КОРПОРАТИВЫ В ЛИНКЕР ПАРКЕ</span>
+                        <a href="#" class="action__link">
+                           <span class="action__link--text">ПОДРОБНЕЕ</span>
+                           <svg class="action__link--ico">
+                              <use xlink:href="img/sprite.svg#arrowLink"></use>
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="sliderArrow __prev">
+                  <svg class="sliderArrow--ico">
+                     <use xlink:href="img/sprite.svg#arrow"></use>
+                  </svg>
+                  <img src="img/svg/sliderArrow.svg" class="img-contain" width="50" height="165" alt="sliderArrow">
+               </div>
+               <div class="sliderArrow __next">
+                  <svg class="sliderArrow--ico">
+                     <use xlink:href="img/sprite.svg#arrow"></use>
+                  </svg>
+                  <img src="img/svg/sliderArrow.svg" class="img-contain" width="50" height="165" alt="sliderArrow">
+               </div>
+            </div>
+         </section>
+         <section class="sale">
+            <div class="sale__decor">
+               <picture>
+                  <source srcset="img/saleTree.webp" type="image/webp">
+                  <img loading="lazy" src="img/saleTree.png" class="img-contain" width="141" height="571" alt="decor">
+               </picture>
+            </div>
+            <div class="container sale__content">
+               <div class="sale__top">
+                  <div class="title __full">
+                     <h2 id="sale" class="title--text">Акции</h2>
+                  </div>
+               </div>
+               <ul class="list-reset sale__items">
+                  <li class="sale__item __big">
+                     <div class="sale__img">
+                        <picture>
+                           <source srcset="img/action04.webp" type="image/webp">
+                           <img loading="lazy" src="img/action04.jpg" class="img-absolute" width="384" height="385"
+                              alt="sale">
+                        </picture>
+                     </div>
+                     <div class="sale__info">
+                        <span class="sale__name">Семейный отдых со скидкой 20%</span>
+                        <a href="#" class="action__link">
+                           <span class="action__link--text">ПОДРОБНЕЕ</span>
+                           <svg class="action__link--ico">
+                              <use xlink:href="img/sprite.svg#arrowLink"></use>
+                           </svg>
+                        </a>
+                     </div>
+                  </li>
+                  <li class="sale__item">
+                     <div class="sale__img">
+                        <picture>
+                           <source srcset="img/action02.webp" type="image/webp">
+                           <img loading="lazy" src="img/action02.jpg" class="img-absolute" width="384" height="180"
+                              alt="sale">
+                        </picture>
+                     </div>
+                     <div class="sale__info">
+                        <span class="sale__name">молодожёнам скидка 10%</span>
+                        <a href="#" class="action__link">
+                           <span class="action__link--text">ПОДРОБНЕЕ</span>
+                           <svg class="action__link--ico">
+                              <use xlink:href="img/sprite.svg#arrowLink"></use>
+                           </svg>
+                        </a>
+                     </div>
+                  </li>
+                  <li class="sale__item">
+                     <div class="sale__img">
+                        <picture>
+                           <source srcset="img/action03.webp" type="image/webp">
+                           <img loading="lazy" src="img/action03.jpg" class="img-absolute" width="384" height="180"
+                              alt="sale">
+                        </picture>
+                     </div>
+                     <div class="sale__info">
+                        <span class="sale__name">бесплатные часы банкета</span>
+                        <a href="#" class="action__link">
+                           <span class="action__link--text">ПОДРОБНЕЕ</span>
+                           <svg class="action__link--ico">
+                              <use xlink:href="img/sprite.svg#arrowLink"></use>
+                           </svg>
+                        </a>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="new">
+            <div class="container new__content">
+               <div class="new__top">
+                  <div class="title __full">
+                     <h2 id="new" class="title--text">Новости</h2>
+                  </div>
+               </div>
+               <ul class="list-reset new__list">
+                  <li class="new__item">
+                     <div class="new__img">
+                        <picture>
+                           <source srcset="img/new01.webp" type="image/webp">
+                           <img loading="lazy" src="img/new01.jpg" class="img-absolute" width="385" height="271"
+                              alt="news">
+                        </picture>
+                     </div>
+                     <span class="new__name">пенная вечеринка</span>
+                     <p class="new__description">20 августа в 15 часов</p>
+                     <p class="new__text"> Традиционный летний праздник для всех — море радости, тонна пены,
+                        аквадискотека и аквагрим. Не пропусти…</p>
+                     <a href="#" class="action__link">
+                        <span class="action__link--text">ПОДРОБНЕЕ</span>
+                        <svg class="action__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="new__item">
+                     <div class="new__img">
+                        <picture>
+                           <source srcset="img/new02.webp" type="image/webp">
+                           <img loading="lazy" src="img/new02.jpg" class="img-absolute" width="385" height="271"
+                              alt="news">
+                        </picture>
+                     </div>
+                     <span class="new__name">Отдыхайте с выгодой до 30%!</span>
+                     <p class="new__description">Программа лояльности в Линкер Парк!</p>
+                     <p class="new__text"> Скачивайте приложение UDS GAME, наслаждайтесь отдыхом, получайте кэшбэк и
+                        копите баллы…</p>
+                     <a href="#" class="action__link">
+                        <span class="action__link--text">ПОДРОБНЕЕ</span>
+                        <svg class="action__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="new__item">
+                     <div class="new__img">
+                        <picture>
+                           <source srcset="img/new01.webp" type="image/webp">
+                           <img loading="lazy" src="img/new01.jpg" class="img-absolute" width="385" height="271"
+                              alt="news">
+                        </picture>
+                     </div>
+                     <span class="new__name">пенная вечеринка</span>
+                     <p class="new__description">20 августа в 15 часов</p>
+                     <p class="new__text"> Традиционный летний праздник для всех — море радости, тонна пены,
+                        аквадискотека и аквагрим. Не пропусти…</p>
+                     <a href="#" class="action__link">
+                        <span class="action__link--text">ПОДРОБНЕЕ</span>
+                        <svg class="action__link--ico">
+                           <use xlink:href="img/sprite.svg#arrowLink"></use>
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="help">
+            <div class="container help__content">
+               <h3 class="help__title">полезная информация</h3>
+               <ul class="list-reset help__list">
+                  <li class="help__item">
+                     <div class="help__img--live">
+                        <img loading="lazy" src="img/svg/help01.svg" class="img-contain" width="72" height="72"
+                           alt="logotype help">
+                     </div>
+                     <a href="#" class="help__link">Правила проживания</a>
+                  </li>
+                  <li class="help__item">
+                     <div class="help__img--oferta">
+                        <img loading="lazy" src="img/svg/help02.svg" class="img-contain" width="79" height="79"
+                           alt="logotype help">
+                     </div>
+                     <a href="#" class="help__link">Договор оферты</a>
+                  </li>
+                  <li class="help__item">
+                     <div class="help__img--politic">
+                        <img loading="lazy" src="img/svg/help03.svg" class="img-contain" width="55" height="55"
+                           alt="logotype help">
+                     </div>
+                     <a href="#" class="help__link">Политика конфиденциальности</a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="contact">
+            <div class="container contact__content">
+               <h3 class="contact__title">как добраться до линкер парка</h3>
+               <p class="contact__text">Чтобы добраться до отеля из Омска, отправляйтесь по Черлакскому тракту до 31 км.
+                  Перед заправкой «Топлайн» по указателю «Линкер Парк» поверните налево. Далее следуйте по главной
+                  дороге и примерно через 800 м поверните еще раз налево.</p>
+            </div>
+            <div id="map" class="contact__map"></div>
+         </section>
+      </main>
+      <footer id="footer" class="footer">
+   <div class="footer__decor">
+      <picture>
+         <source srcset="img/footer.webp" type="image/webp">
+         <img loading="lazy" src="img/footer.png" class="img-contain" width="120" height="180" alt="decor">
+      </picture>
+   </div>
+   <div class="container footer__content">
+      <div class="footer__left">
+         <div class="footer__logo">
+            <img loading="lazy" src="img/svg/logo.svg" class="img-contain" width="218" height="75" alt="линкер парк">
+         </div>
+         <a href="tel:+7(3812)37-81-67" class="footer__link">
+            <svg class="footer__link--ico">
+               <use xlink:href="img/sprite.svg#tel"></use>
+            </svg>
+            <span class="footer__link--text"> +7 (38-12) 37-81-67</span>
+         </a>
+         <a href="mailto:linkerpark-omsk@mail.ru" class="footer__link">
+            <svg class="footer__link--ico">
+               <use xlink:href="img/sprite.svg#mail"></use>
+            </svg>
+            <span class="footer__link--text">linkerpark-omsk@mail.ru</span>
+         </a>
+      </div>
+      <div class="footer__right">
+         <span class="footer__title">Адрес</span>
+         <span class="footer__name">Офис продаж:</span>
+         <p class="footer__text">г. Омск, ул. Лукашевича, 11, 1 этаж (вход с ул. Лукашевича).</p>
+         <span class="footer__name">Отель</span>
+         <p class="footer__text">г. Омск, ул. Лукашевича, 12</p>
+      </div>
+   </div>
+</footer>
+
+   </div>
+</body>
+
+</html>
