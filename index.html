@@ -544,62 +544,64 @@
                      <h2 id="sale" class="title--text">Акции</h2>
                   </div>
                </div>
-               <ul class="list-reset sale__items">
-                  <li class="sale__item __big">
-                     <div class="sale__img">
-                        <picture>
-                           <source srcset="img/action04.webp" type="image/webp">
-                           <img loading="lazy" src="img/action04.jpg" class="img-absolute" width="384" height="385"
-                              alt="sale">
-                        </picture>
-                     </div>
-                     <div class="sale__info">
-                        <span class="sale__name">Семейный отдых со скидкой 20%</span>
-                        <a href="#" class="action__link">
-                           <span class="action__link--text">ПОДРОБНЕЕ</span>
-                           <svg class="action__link--ico">
-                              <use xlink:href="img/sprite.svg#arrowLink"></use>
-                           </svg>
-                        </a>
-                     </div>
-                  </li>
-                  <li class="sale__item">
-                     <div class="sale__img">
-                        <picture>
-                           <source srcset="img/action02.webp" type="image/webp">
-                           <img loading="lazy" src="img/action02.jpg" class="img-absolute" width="384" height="180"
-                              alt="sale">
-                        </picture>
-                     </div>
-                     <div class="sale__info">
-                        <span class="sale__name">молодожёнам скидка 10%</span>
-                        <a href="#" class="action__link">
-                           <span class="action__link--text">ПОДРОБНЕЕ</span>
-                           <svg class="action__link--ico">
-                              <use xlink:href="img/sprite.svg#arrowLink"></use>
-                           </svg>
-                        </a>
-                     </div>
-                  </li>
-                  <li class="sale__item">
-                     <div class="sale__img">
-                        <picture>
-                           <source srcset="img/action03.webp" type="image/webp">
-                           <img loading="lazy" src="img/action03.jpg" class="img-absolute" width="384" height="180"
-                              alt="sale">
-                        </picture>
-                     </div>
-                     <div class="sale__info">
-                        <span class="sale__name">бесплатные часы банкета</span>
-                        <a href="#" class="action__link">
-                           <span class="action__link--text">ПОДРОБНЕЕ</span>
-                           <svg class="action__link--ico">
-                              <use xlink:href="img/sprite.svg#arrowLink"></use>
-                           </svg>
-                        </a>
-                     </div>
-                  </li>
-               </ul>
+               <div class="swiper sale__items">
+                  <div class="swiper-wrapper">
+                     <a href="#" class="sale__item swiper-slide __big">
+                        <div class="sale__img">
+                           <picture>
+                              <source srcset="img/action04.webp" type="image/webp">
+                              <img loading="lazy" src="img/action04.jpg" class="img-absolute" width="384" height="385"
+                                 alt="sale">
+                           </picture>
+                        </div>
+                        <div class="sale__info">
+                           <span class="sale__name">Семейный отдых со скидкой 20%</span>
+                           <span class="action__link">
+                              <span class="action__link--text">ПОДРОБНЕЕ</span>
+                              <svg class="action__link--ico">
+                                 <use xlink:href="img/sprite.svg#arrowLink"></use>
+                              </svg>
+                           </span>
+                        </div>
+                     </a>
+                     <a href="#" class="sale__item swiper-slide">
+                        <div class="sale__img">
+                           <picture>
+                              <source srcset="img/action02.webp" type="image/webp">
+                              <img loading="lazy" src="img/action02.jpg" class="img-absolute" width="384" height="180"
+                                 alt="sale">
+                           </picture>
+                        </div>
+                        <div class="sale__info">
+                           <span class="sale__name">молодожёнам скидка 10%</span>
+                           <span class="action__link">
+                              <span class="action__link--text">ПОДРОБНЕЕ</span>
+                              <svg class="action__link--ico">
+                                 <use xlink:href="img/sprite.svg#arrowLink"></use>
+                              </svg>
+                           </span>
+                        </div>
+                     </a>
+                     <a href="#" class="sale__item swiper-slide">
+                        <div class="sale__img">
+                           <picture>
+                              <source srcset="img/action03.webp" type="image/webp">
+                              <img loading="lazy" src="img/action03.jpg" class="img-absolute" width="384" height="180"
+                                 alt="sale">
+                           </picture>
+                        </div>
+                        <div class="sale__info">
+                           <span class="sale__name">бесплатные часы банкета</span>
+                           <span class="action__link">
+                              <span class="action__link--text">ПОДРОБНЕЕ</span>
+                              <svg class="action__link--ico">
+                                 <use xlink:href="img/sprite.svg#arrowLink"></use>
+                              </svg>
+                           </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
             </div>
          </section>
          <section class="new">
@@ -609,93 +611,98 @@
                      <h2 id="new" class="title--text">Новости</h2>
                   </div>
                </div>
-               <ul class="list-reset new__list">
-                  <li class="new__item">
-                     <div class="new__img">
-                        <picture>
-                           <source srcset="img/new01.webp" type="image/webp">
-                           <img loading="lazy" src="img/new01.jpg" class="img-absolute" width="385" height="271"
-                              alt="news">
-                        </picture>
-                     </div>
-                     <span class="new__name">пенная вечеринка</span>
-                     <p class="new__description">20 августа в 15 часов</p>
-                     <p class="new__text"> Традиционный летний праздник для всех — море радости, тонна пены,
-                        аквадискотека и аквагрим. Не пропусти…</p>
-                     <a href="#" class="action__link">
-                        <span class="action__link--text">ПОДРОБНЕЕ</span>
-                        <svg class="action__link--ico">
-                           <use xlink:href="img/sprite.svg#arrowLink"></use>
-                        </svg>
+               <div class="swiper new__list">
+                  <div class="swiper-wrapper">
+                     <a href="#" class="new__item swiper-slide">
+                        <div class="new__img">
+                           <picture>
+                              <source srcset="img/new01.webp" type="image/webp">
+                              <img loading="lazy" src="img/new01.jpg" class="img-absolute" width="385" height="271"
+                                 alt="news">
+                           </picture>
+                        </div>
+                        <span class="new__name">пенная вечеринка</span>
+                        <p class="new__description">20 августа в 15 часов</p>
+                        <p class="new__text"> Традиционный летний праздник для всех — море радости, тонна пены,
+                           аквадискотека и аквагрим. Не пропусти…</p>
+                        <span class="action__link">
+                           <span class="action__link--text">ПОДРОБНЕЕ</span>
+                           <svg class="action__link--ico">
+                              <use xlink:href="img/sprite.svg#arrowLink"></use>
+                           </svg>
+                        </span>
                      </a>
-                  </li>
-                  <li class="new__item">
-                     <div class="new__img">
-                        <picture>
-                           <source srcset="img/new02.webp" type="image/webp">
-                           <img loading="lazy" src="img/new02.jpg" class="img-absolute" width="385" height="271"
-                              alt="news">
-                        </picture>
-                     </div>
-                     <span class="new__name">Отдыхайте с выгодой до 30%!</span>
-                     <p class="new__description">Программа лояльности в Линкер Парк!</p>
-                     <p class="new__text"> Скачивайте приложение UDS GAME, наслаждайтесь отдыхом, получайте кэшбэк и
-                        копите баллы…</p>
-                     <a href="#" class="action__link">
-                        <span class="action__link--text">ПОДРОБНЕЕ</span>
-                        <svg class="action__link--ico">
-                           <use xlink:href="img/sprite.svg#arrowLink"></use>
-                        </svg>
+                     <a href="#" class="new__item swiper-slide">
+                        <div class="new__img">
+                           <picture>
+                              <source srcset="img/new02.webp" type="image/webp">
+                              <img loading="lazy" src="img/new02.jpg" class="img-absolute" width="385" height="271"
+                                 alt="news">
+                           </picture>
+                        </div>
+                        <span class="new__name">Отдыхайте с выгодой до 30%!</span>
+                        <p class="new__description">Программа лояльности в Линкер Парк!</p>
+                        <p class="new__text"> Скачивайте приложение UDS GAME, наслаждайтесь отдыхом, получайте кэшбэк и
+                           копите баллы…</p>
+                        <span class="action__link">
+                           <span class="action__link--text">ПОДРОБНЕЕ</span>
+                           <svg class="action__link--ico">
+                              <use xlink:href="img/sprite.svg#arrowLink"></use>
+                           </svg>
+                        </span>
                      </a>
-                  </li>
-                  <li class="new__item">
-                     <div class="new__img">
-                        <picture>
-                           <source srcset="img/new01.webp" type="image/webp">
-                           <img loading="lazy" src="img/new01.jpg" class="img-absolute" width="385" height="271"
-                              alt="news">
-                        </picture>
-                     </div>
-                     <span class="new__name">пенная вечеринка</span>
-                     <p class="new__description">20 августа в 15 часов</p>
-                     <p class="new__text"> Традиционный летний праздник для всех — море радости, тонна пены,
-                        аквадискотека и аквагрим. Не пропусти…</p>
-                     <a href="#" class="action__link">
-                        <span class="action__link--text">ПОДРОБНЕЕ</span>
-                        <svg class="action__link--ico">
-                           <use xlink:href="img/sprite.svg#arrowLink"></use>
-                        </svg>
+                     <a href="#" class="new__item swiper-slide">
+                        <div class="new__img">
+                           <picture>
+                              <source srcset="img/new01.webp" type="image/webp">
+                              <img loading="lazy" src="img/new01.jpg" class="img-absolute" width="385" height="271"
+                                 alt="news">
+                           </picture>
+                        </div>
+                        <span class="new__name">пенная вечеринка</span>
+                        <p class="new__description">20 августа в 15 часов</p>
+                        <p class="new__text"> Традиционный летний праздник для всех — море радости, тонна пены,
+                           аквадискотека и аквагрим. Не пропусти…</p>
+                        <span class="action__link">
+                           <span class="action__link--text">ПОДРОБНЕЕ</span>
+                           <svg class="action__link--ico">
+                              <use xlink:href="img/sprite.svg#arrowLink"></use>
+                           </svg>
+                        </span>
                      </a>
-                  </li>
-               </ul>
+                  </div>
+               </div>
             </div>
          </section>
          <section class="help">
             <div class="container help__content">
                <h3 class="help__title">полезная информация</h3>
-               <ul class="list-reset help__list">
-                  <li class="help__item">
+               <div class="help__list">
+                  <a href="#" class="help__item">
                      <div class="help__img--live">
-                        <img loading="lazy" src="img/svg/help01.svg" class="img-contain" width="72" height="72"
-                           alt="logotype help">
+                        <svg class="img-contain">
+                           <use xlink:href="img/sprite.svg#help01"></use>
+                        </svg>
                      </div>
-                     <a href="#" class="help__link">Правила проживания</a>
-                  </li>
-                  <li class="help__item">
+                     <span class="help__link">Правила проживания</span>
+                  </a>
+                  <a href="#" class="help__item">
                      <div class="help__img--oferta">
-                        <img loading="lazy" src="img/svg/help02.svg" class="img-contain" width="79" height="79"
-                           alt="logotype help">
+                        <svg class="img-contain">
+                           <use xlink:href="img/sprite.svg#help02"></use>
+                        </svg>
                      </div>
-                     <a href="#" class="help__link">Договор оферты</a>
-                  </li>
-                  <li class="help__item">
+                     <span class="help__link">Договор оферты</span>
+                  </a>
+                  <a href="#" class="help__item">
                      <div class="help__img--politic">
-                        <img loading="lazy" src="img/svg/help03.svg" class="img-contain" width="55" height="55"
-                           alt="logotype help">
+                        <svg class="img-contain">
+                           <use xlink:href="img/sprite.svg#help03"></use>
+                        </svg>
                      </div>
-                     <a href="#" class="help__link">Политика конфиденциальности</a>
-                  </li>
-               </ul>
+                     <span class="help__link">Политика конфиденциальности</span>
+                  </a>
+               </div>
             </div>
          </section>
          <section class="contact">
